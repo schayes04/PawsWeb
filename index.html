@@ -57,6 +57,28 @@
       font-size: 1rem;
     }
 
+    .cta {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 12px 16px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      color: #ffffff;
+      background: var(--accent);
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+
+    .cta:hover {
+      background: #0d625b;
+      transform: translateY(-1px);
+    }
+
+    .cta:focus-visible {
+      outline: 3px solid #99f6e4;
+      outline-offset: 3px;
+    }
+
     .pill {
       display: inline-block;
       margin-bottom: 14px;
@@ -79,6 +101,9 @@
       Keep feeding, walks, meds, and routines organized for your dog.
       The iOS app is currently in progress and will be available on the App Store soon.
     </p>
+    <a class="cta" href="https://apps.apple.com/us/app/paws-dog-care-tracker/id6759272028" target="_blank" rel="noopener noreferrer">
+      Pre-order on the App Store
+    </a>
   </main>
 </body>
 </html>
