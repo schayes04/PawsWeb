@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Paws: Dog Care Tracker</title>
-  <meta name="description" content="Paws helps you keep your dog's care schedule, reminders, and routines in one place.">
+  <meta name="description" content="Paws helps you keep your dog's care schedule, reminders, and routines in one place. Now available on the App Store.">
   <style>
     :root {
       color-scheme: light;
@@ -57,24 +57,20 @@
       font-size: 1rem;
     }
 
-    .cta {
+    .store-link {
       display: inline-block;
       margin-top: 18px;
-      padding: 12px 16px;
-      border-radius: 12px;
-      text-decoration: none;
-      font-weight: 700;
-      color: #ffffff;
-      background: var(--accent);
-      transition: background 0.2s ease, transform 0.2s ease;
+      line-height: 0;
     }
 
-    .cta:hover {
-      background: #0d625b;
-      transform: translateY(-1px);
+    .store-link img {
+      display: block;
+      width: 200px;
+      max-width: 100%;
+      height: auto;
     }
 
-    .cta:focus-visible {
+    .store-link:focus-visible {
       outline: 3px solid #99f6e4;
       outline-offset: 3px;
     }
@@ -95,14 +91,14 @@
 </head>
 <body>
   <main>
-    <span class="pill">Coming Soon</span>
+    <span class="pill">Now Available</span>
     <h1>Paws: Dog Care Tracker</h1>
     <p>
       Keep feeding, walks, meds, and routines organized for your dog.
-      The iOS app is currently in progress and will be available on the App Store soon.
+      The iOS app is now available for purchase on the App Store.
     </p>
-    <a class="cta" href="https://apps.apple.com/us/app/paws-dog-care-tracker/id6759272028" target="_blank" rel="noopener noreferrer">
-      Pre-order on the App Store
+    <a class="store-link" href="https://apps.apple.com/us/app/paws-dog-care-tracker/id6759272028" target="_blank" rel="noopener noreferrer" aria-label="Download Paws on the App Store">
+      <img src="app-store-badge.svg" alt="Download on the App Store" width="200" height="67">
     </a>
   </main>
 </body>
